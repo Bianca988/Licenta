@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mapFragment">
+
+    <Button
+        android:id="@+id/bn"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="146dp"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/text_message"
+        android:layout_width="302dp"
+        android:layout_height="230dp"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+</FrameLayout>
